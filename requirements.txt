@@ -1,2 +1,5 @@
 nemoguardrails==0.5.0
 openai==0.28.1
+chromadb==0.4.16
+langchain==0.0.332
+tiktoken==0.5.1
