@@ -32,7 +32,7 @@ pip install -r requirements.txt
 ### Server
 
 ```bash
-nemoguard server
+nemoguard server --verbose
 ```
 
 ### Client (curl)
@@ -98,6 +98,12 @@ $ curl -w "@curl-format.txt" --header "Content-Type: application/json" -X POST h
           time_total:  4.620553s
 #########################################
 
+```
+
+Server log
+```bash
+INFO:nemoguardrails.rails.llm.llmrails:--- :: Total processing took 4.66 seconds.
+INFO:nemoguardrails.rails.llm.llmrails:--- :: Stats: 5 total calls, 4.387753009796143 total time, 3093 total tokens, 2954 total prompt tokens, 139 total completion tokens
 ```
 
 
