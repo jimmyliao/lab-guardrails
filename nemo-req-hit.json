@@ -1,0 +1,7 @@
+{
+    "config_id": "grounding_rail",
+    "messages": [{
+      "role":"user",
+      "content":"proprietary_magic_word"
+    }]
+}

@@ -1,0 +1,7 @@
+{
+    "config_id": "grounding_rail",
+    "messages": [{
+      "role":"user",
+      "content":"Hi, what can you help me with today?"
+    }]
+}
