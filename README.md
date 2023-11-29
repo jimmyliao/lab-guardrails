@@ -1,4 +1,20 @@
-### lab-guardrails
+## NeMo Guardrails Lab files
+
+### Folder structure
+```bash
+$ tree -L 1
+
+├── README.md
+├── config\             # config files
+├── curl-format.txt     # curl format
+├── lab01.ipynb         # Basic Usage
+├── lab02.ipynb         # intg w/ LangChain
+├── lab03.ipynb         # Advanced
+├── nemo-req-hit.json   # blocklist req payload
+├── nemo-req.json
+└── requirements.txt
+
+```
 
 ## Installation
 
@@ -83,3 +99,10 @@ $ curl -w "@curl-format.txt" --header "Content-Type: application/json" -X POST h
 #########################################
 
 ```
+
+
+## References
+
+- https://github.com/NVIDIA/NeMo-Guardrails/blob/main/docs/user_guide/interface-guide.md#guardrails-server
+- https://stackoverflow.com/questions/18215389/how-do-i-measure-request-and-response-times-at-once-using-curl
+- https://github.com/Coding-Crashkurse/NeMo-Guardrails/blob/main/basics.ipynb
