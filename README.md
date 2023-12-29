@@ -10,6 +10,7 @@ $ tree -L 1
 ├── lab01.ipynb         # Basic Usage
 ├── lab02.ipynb         # intg w/ LangChain
 ├── lab03.ipynb         # Advanced
+├── lab04.ipynb         # intg w/ PaLM
 ├── nemo-req-hit.json   # blocklist req payload
 ├── nemo-req.json
 └── requirements.txt
